@@ -18,3 +18,5 @@ export const testConnection = async () => {
         console.error('❌ Database connection failed:', error);
     }
 };
+
+export default pool;
